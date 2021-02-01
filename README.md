@@ -1,1 +1,1 @@
-# typescript-projects
+# Various TypeScript projects
