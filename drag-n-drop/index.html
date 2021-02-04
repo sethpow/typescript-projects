@@ -13,21 +13,25 @@
       <form>
         <div class="form-control">
           <label for="title">Title</label>
-          <input type="text" id="title" autocomplete='off' />
+          <input type="text" id="title" required autocomplete='off' />
         </div>
         <div class="form-control">
           <label for="description">Description</label>
-          <textarea id="description" rows="3" autocomplete='off'></textarea>
+          <textarea id="description" rows="3" required autocomplete='off'></textarea>
         </div>
         <div class="form-control">
           <label for="people">People</label>
-          <input type="number" id="people" step="1" min="1" max="100" autocomplete='off' />
+          <input type="number" id="people" step="1" min="0" autocomplete='off' />
         </div>
         <button type="submit">ADD PROJECT</button>
       </form>
     </template>
     <template id="single-project">
-      <li></li>
+      <li>
+        <h2></h2>
+        <h3></h3>
+        <p></p>
+      </li>
     </template>
     <template id="project-list">
       <section class="projects">
